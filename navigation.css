@@ -1,0 +1,66 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: WHITE;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #F06C9B;
+  font-weight: bold;
+  border-bottom: 1px solid #bf6787;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 3.5% 2%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding-bottom: 1%;
+  color:white;
+}
+
+.topnav a.active {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding-bottom: 1%;
+  color:white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.im
+  {
+    float: left;
+    width: 13%;
+    padding: 0.5% 1%;
+    margin-left: 3%;     
+    margin-right: 4%;
+    border-radius: 90px; 
+}
+
+.profile
+{
+  padding-right:5px;
+  margin-right:3%;
+  margin-top:1.5%;
+  float: right; 
+}
+.profile img
+{
+  width:60%;
+}
+.profile a:hover
+{
+  border-bottom-width: 0px;
+}

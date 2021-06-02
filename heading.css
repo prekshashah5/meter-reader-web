@@ -1,0 +1,41 @@
+.heading
+{
+	font-size:30px;
+	color:#ffb602;
+	font-weight: bold;
+  text-align: center;
+  padding-bottom: 1%;
+  margin-bottom: 0px;
+}
+
+hr
+{
+  border: 0.3px solid #eee;
+}
+.btns{
+  display: inline-block;
+  background-color: #00a7de;
+  color: white;
+  padding: 3% 10%;
+  font-family: sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 3%;
+  font-size: 16px;
+  font-weight: bold;
+  border:0px;
+  margin-left:2%;
+  text-decoration: none;
+}
+
+  .tbox{
+  position: absolute;
+  color: #301b3f;
+  top: 63%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  padding: 3%;
+  width: 50%;
+  z-index: -1;
+  margin-top:2%;
+}
